@@ -50,6 +50,26 @@ const Navbar = () => {
                   >
                     Add Job
                   </NavLink>
+                  <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                      isActive
+                        ? "bg-black text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                        : "text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                    }
+                  >
+                    About
+                  </NavLink>
+                  <NavLink
+                    to="/contact"
+                    className={({ isActive }) =>
+                      isActive
+                        ? "bg-black text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                        : "text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                    }
+                  >
+                    Contact Us
+                  </NavLink>
                 </div>
               </div>
             </div>
